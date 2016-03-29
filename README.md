@@ -1,3 +1,3 @@
-# Gaddiel-Ecm
+# Gaddiel-eCM
 
 Clinical lab
