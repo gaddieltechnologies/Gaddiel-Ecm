@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+
+
+    <session-factory>
+    <mapping class="org.clinikraj.model.User" />
+    <mapping class="org.clinikraj.model.Client" />
+    <mapping class="org.clinikraj.model.ClinicalLab"/>
+    <mapping class="org.clinikraj.model.Doctor" />
+    <mapping class="org.clinikraj.model.DoctorCommisionRate"/>
+    <mapping class="org.clinikraj.model.Patient"/>
+      <mapping class="org.clinikraj.model.PatientTests"/>
+     <mapping class="org.clinikraj.model.PatientTestOrders"/>
+    <mapping class="org.clinikraj.model.PatientTestGroups"/>
+     <mapping class="org.clinikraj.model.TestGroups"/>
+     <mapping class="org.clinikraj.model.TestSubgroups"/>
+     <mapping class="org.clinikraj.model.Tests"/>
+    <mapping class="org.clinikraj.model.TestVendor"/>
+    <mapping class="org.clinikraj.model.Pintable"/>
+    <mapping class="org.clinikraj.model.ContactModes"/>
+    <mapping class="org.clinikraj.model.PatientTestOrders"/>
+     <mapping class="org.clinikraj.model.Specilizations"/>
+    <mapping class="org.clinikraj.model.PatientTests"/>
+    <mapping class="org.clinikraj.model.Tests"/>
+    <mapping class="org.clinikraj.model.TestGroups"/>
+    <mapping class="org.clinikraj.model.TestSubgroups"/>
+   </session-factory>
+</hibernate-configuration>

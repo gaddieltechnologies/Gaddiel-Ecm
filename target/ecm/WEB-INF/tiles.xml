@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+
+<definition name="index" template="/WEB-INF/jsp/index.jsp" />
+	<definition name="ChangePwd" template="/WEB-INF/jsp/ChangePwd.jsp" />		
+	<definition name="underconstruction" template="/WEB-INF/jsp/common/underConstruction.jsp" />		
+	<definition name="ResetPassword"  template="/WEB-INF/jsp/ForgotPassword.jsp" />
+	<definition name="base.definition"	template="/WEB-INF/jsp/common/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/jsp/common/header.jsp" />
+		<put-attribute name="body" value="" />
+		
+	</definition>
+	
+	
+	
+	 <definition name="doctortestOrderView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/doctorLogin/doctortestOrderView.jsp" />
+		
+	</definition>
+	
+	 <definition name="doctorLogin" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/doctorLogin/doctorLogin.jsp" />
+		
+	</definition>
+
+	<definition name="controlPanel" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/controlPanel.jsp" />
+		
+	</definition>
+	
+	<definition name="userLabInfo" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/clinicalLabInfo/labInfo.jsp" />
+		
+	</definition>
+	
+	<definition name="patientManager" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/paient/patientManager.jsp" />
+		
+	</definition>
+	
+	<definition name="patienManagerAdd" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/paient/patientManagerAdd.jsp" />
+		
+	</definition>
+	
+	<definition name="PatientDetailView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/paient/patientDetailView.jsp" />
+		
+	</definition>
+	
+	<definition name="doctorManager" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/doctor/doctorManager.jsp" />
+		
+	</definition>
+	
+	<definition name="doctorManagerAdd" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/doctor/doctorManagerAdd.jsp" />
+		
+	</definition>
+	<definition name="doctorManagerView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/doctor/doctorManagerView.jsp" />
+		
+	</definition>
+	
+	<definition name="refferdLabIfo" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/referredLabInfo/refferdLabIfo.jsp" />
+		
+	</definition>
+	
+	<definition name="refferdLabIfoAdd" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/referredLabInfo/refferdLabIfoAdd.jsp" />
+		
+	</definition>
+	
+	<definition name="refferdLabIfoView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/referredLabInfo/refferdLabIfoView.jsp" />
+		
+	</definition>
+	
+	<definition name="testOrderManager" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/test/testOrderManager.jsp" />
+		
+	</definition>
+	
+	<definition name="testOrderManagerNew" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/test/testOrderManagerNew.jsp" />
+		
+	</definition>
+	
+	<definition name="masterDetailConfiguraton" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/configuration/masterDetailConfiguraton.jsp" />
+		
+	</definition>
+	
+	<definition name="report" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/reports/report.jsp" />
+		
+	</definition>
+	
+	<definition name="userAccessManager" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/user/userAccessManager.jsp" />
+		
+	</definition>
+	
+	<definition name="userAccessManagerAdd" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/user/userAccessManagerAdd.jsp" />
+		
+	</definition>
+	
+	<definition name="userAccessManagerView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/user/userAccessManagerView.jsp" />
+		
+	</definition>
+
+	 <definition name="patienttestOrderView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/PatientLogin/patienttestOrderView.jsp" />
+		
+	</definition>
+
+	 <definition name="patientLogin" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/PatientLogin/patientLogin.jsp" />
+		
+
+	</definition>
+	 <definition name="testvendorLogin" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/TestvendorLogin/testvendorLogin.jsp" />
+		
+	</definition>
+	 <definition name="testVendorView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/TestvendorLogin/testVendorView.jsp" />
+		
+	</definition>
+	
+	<definition name="testOrderManagerView" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/test/testOrderManagerView.jsp" />
+		
+	</definition>
+    	<definition name="signup" template="/WEB-INF/jsp/signup.jsp" />	
+    	<definition name="thankyou" template="/WEB-INF/jsp/thankyou.jsp" />
+    	<definition name="sessionexpire" template="/WEB-INF/jsp/sessionexpire.jsp" />
+    	
+	
+		<definition name="resetPassword" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/resetPassword.jsp" />
+	</definition>
+</tiles-definitions>	
